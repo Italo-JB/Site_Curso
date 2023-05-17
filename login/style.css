@@ -1,0 +1,38 @@
+.container {
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    transform: translate(-40%, -60%);
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    z-index: 1;
+    background-color: white;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  
+  input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+body{
+  background-color: blue;
+  background-size: cover;
+}
